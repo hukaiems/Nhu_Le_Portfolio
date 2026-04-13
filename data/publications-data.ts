@@ -46,7 +46,7 @@ export const publicationData: PublicationSection[] = [
         year: "(2023)",
         title:
           "Online workshop series for international university students: All about variables & Hypotheses.",
-        venue: "Invited Workshop Series.",
+        venue: "Invited Workshop Series, Ton Duc Thang University.",
       },
     ],
   },
