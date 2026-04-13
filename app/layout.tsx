@@ -33,7 +33,7 @@ export default function RootLayout({
       >
         <main className="relative min-h-screen w-full bg-[#fdf8f7] overflow-hidden  grid grid-rows-[auto_1fr]">
           {/* Content goes here */}
-          <div className="flex justify-center mt-4">
+          <div className="flex justify-center">
             <NavigationMenuDemo />
           </div>
           {children}
