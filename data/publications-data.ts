@@ -1,10 +1,10 @@
 export interface Publication {
   id: string;
   authors: string;
-  year: string; // Using string to accommodate "(Accepted)" or "(2024)"
+  year: string; 
   title?: string;
-  venue: string; // The publisher or journal name
-  link?: string; // Optional URL if the title should be clickable
+  venue: string; 
+  link?: string; 
 }
 
 export interface PublicationSection {
@@ -15,45 +15,56 @@ export interface PublicationSection {
 
 export const publicationData: PublicationSection[] = [
   {
-    id: "books",
+    id: "publications",
+    title: "Publications",
     items: [
       {
-        id: "1",
-        authors: "Larsson, T., & Hancock, G. R.",
-        year: "(Accepted)",
-        title: "Statistical modeling for (actual) hypothesis testing: Building cumulative knowledge in corpus linguistics.",
-        venue: "Cambridge Elements in Corpus Linguistics. Cambridge University Press.",
+        id: "pub-1",
+        authors: "Le, N. Q. N. & Zapletalova, G.",
+        year: "(Forthcoming, 2026)",
+        title: "Lexical bundles in undergraduate L2 Vietnamese English and L1 English Writing.",
+        venue: "Topics in Linguistics.",
       },
       {
-        id: "2",
-        authors: "Wood, M., Larsson, T., Plonsky, L., Sterling, S., Kytö, M., Yaw, K.",
-        year: "(2024)",
-        title: "Addressing Questionable Research Practices in Applied Linguistics: A practical guide.",
-        venue: "Applied Linguistics Press.",
-        link: "https://example.com/link-to-paper",
+        id: "pub-2",
+        authors: "Le, N. Q. N.",
+        year: "(Forthcoming, 2026)",
+        title: "The frequency and use of lexical bundles in L2 Vietnamese and L1 English discourse compared to the Academic Formula Lists (AFLs).",
+        venue: "Ostrava Journal of English Philology.",
       },
-      {
-        id: "3",
-        authors: "Egbert, J., Larsson, T., & Biber, D.",
-        year: "(2020)",
-        title: "Doing linguistics with a corpus: Methodological considerations for the everyday user.",
-        venue: "Cambridge Elements in Corpus Linguistics. Cambridge University Press.",
-        link: "https://example.com/link-to-paper2",
-      },
-      {
-        id: "4",
-        authors: "Jonsson, E., & Larsson, T. (Eds.).",
-        year: "(2020)",
-        title: "Voices past and present: Studies of involved, speech-related and spoken texts. In honor of Merja Kytö.",
-        venue: "Benjamins.",
-        link: "https://example.com/link-to-paper3",
-      }
     ],
   },
-  // You can add another section like this later:
-  // {
-  //   id: "journals",
-  //   title: "Journal Articles",
-  //   items: [ ... ]
-  // }
+  {
+    id: "workshops",
+    title: "Invited workshops",
+    items: [
+      {
+        id: "ws-1",
+        authors: "Le, N. Q. N.",
+        year: "(2023)",
+        title: "Online workshop series for international university students: All about variables & Hypotheses.",
+        venue: "Invited Workshop Series.",
+      },
+    ],
+  },
+  {
+    id: "conferences",
+    title: "Conference presentations",
+    items: [
+      {
+        id: "conf-1",
+        authors: "Le, N. Q. N.",
+        year: "(2025)",
+        title: "The frequency and use of Lexical Bundles (LBs) in L2-Vietnamese and L1-English discourse compared to the Academic Formula List (AFL).",
+        venue: "Corpus Linguistics 2025, 30 June-3 July, Birmingham, UK.",
+      },
+      {
+        id: "conf-2",
+        authors: "Le, N. Q. N.",
+        year: "(2025)",
+        title: "The Frequency of Lexical Bundles (LBs) Used in Essays by Vietnamese Undergraduates: A Comparison Study of High and Low Scores with the Academic Formula List (AFL).",
+        venue: "Králové Anglophone Conference 2025, 27th – 28th March, Hradec Králové, Czechia.",
+      },
+    ],
+  },
 ];
