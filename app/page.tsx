@@ -16,7 +16,7 @@ export default function Home() {
             </h1>
             <p className="text-base sm:text-lg 2xl:text-2xl text-slate-700 leading-relaxed">
               Lecturer at <a href="https://www.tdtu.edu.vn/" target="_blank" rel="noopener noreferrer">Ton Duc Thang University</a> & <br></br>Doctoral Student at the
-              <a href="https://www.osu.cz/" target="_blank" rel="noopener noreferrer">University of Ostrava</a> <br></br>
+              <span> </span><a href="https://www.osu.cz/" target="_blank" rel="noopener noreferrer">University of Ostrava</a> <br></br>
               <span className="text-xl">Contact: <u><a href="mailto:lengocquynhnhu@tdtu.edu.vn">lengocquynhnhu@tdtu.edu.vn</a></u></span>
             </p>
           </div>
