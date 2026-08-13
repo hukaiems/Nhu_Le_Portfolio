@@ -12,11 +12,10 @@ export default function Home() {
           {/* Title & Intro */}
           <div className="max-w-md 2xl:max-w-xl">
             <h1 className="text-3xl sm:text-2xl 2xl:text-4xl font-extrabold tracking-tighter text-slate-900 mb-4 sm:mb-6 font-serif whitespace-nowrap">
-              Hello, I'm Nhu Le
+              Hello, I'm Nhu Le (Ph.D.)
             </h1>
             <p className="text-base sm:text-lg 2xl:text-2xl text-slate-700 leading-relaxed">
-              Lecturer at <a href="https://www.tdtu.edu.vn/" target="_blank" rel="noopener noreferrer">Ton Duc Thang University</a> & <br></br>Doctoral Student at the
-              <span> </span><a href="https://www.osu.cz/" target="_blank" rel="noopener noreferrer">University of Ostrava</a> <br></br>
+              Lecturer at <a href="https://www.tdtu.edu.vn/" target="_blank" rel="noopener noreferrer">Ton Duc Thang University</a> <br></br>
               <span className="text-xl">Contact: <u><a href="mailto:lengocquynhnhu@tdtu.edu.vn">lengocquynhnhu@tdtu.edu.vn</a></u></span>
             </p>
           </div>

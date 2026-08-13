@@ -18,7 +18,7 @@ export default function PublicationTalks() {
 
             {/* Citations List - EXPLICITLY LEFT ALIGNED */}
             <div className="space-y-8 text-base md:text-lg text-slate-800 font-serif leading-relaxed text-left">
-              {section.items.map((pub) => (
+              {[...section.items].reverse().map((pub) => (
                 <p 
                   key={pub.id} 
                   className="!text-left w-full" 
