@@ -19,14 +19,6 @@ export const publicationData: PublicationSection[] = [
     title: "Publications",
     items: [
       {
-        id: "pub-1",
-        authors: "Le, N. Q. N. & Zapletalova, G.",
-        year: "(Forthcoming, 2026)",
-        title:
-          "Lexical bundles in undergraduate L2 Vietnamese English and L1 English writing.",
-        venue: "Topics in Linguistics.",
-      },
-      {
         id: "pub-2",
         authors: "Le, N. Q. N.",
         year: "(2026)",
