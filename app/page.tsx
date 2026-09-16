@@ -90,7 +90,7 @@ export default function Home() {
             {/* mt-8 pushes it down slightly, and rotate-6 tilts it right */}
             <div className="z-10 p-2 sm:p-3 pb-6 sm:pb-8 bg-white shadow-md rotate-6 w-[45%] sm:w-[50%] shrink-0 -ml-[5%] mt-20 sm:mt-30">
               <img
-                src="/thuyen_hoi_an.jpg"
+                src="/con_dao.jpg"
                 alt="Hoi An Boat"
                 className="w-full aspect-square object-cover"
               />

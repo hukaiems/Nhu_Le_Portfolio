@@ -18,14 +18,23 @@ export const publicationData: PublicationSection[] = [
     id: "publications",
     title: "Publications",
     items: [
+
       {
-        id: "pub-2",
+        id: "pub-1",
         authors: "Le, N. Q. N.",
         year: "(2026)",
         title:
           "The frequency and use of lexical bundles in L2 Vietnamese and L1 English discourse compared to the Academic Formula Lists (AFLs).",
         venue: "Ostrava Journal of English Philology.",
       },
+      {
+        id: "pub-2",
+        authors: "Le, N. Q. N. & Zapletalova, G.",
+        year: "(Forthcoming, 2026)",
+        title:
+          "Lexical bundles in undergraduate L2 Vietnamese English and L1 English writing.",
+        venue: "Topics in Linguistics.",
+      }
     ],
   },
   {
